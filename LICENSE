@@ -1,0 +1,28 @@
+AceCloud CLI - Proprietary Software License
+
+Copyright (c) 2025 AceCloud AI. All rights reserved.
+
+This software and associated documentation files (the "Software") are the
+proprietary property of AceCloud AI. The Software is provided to authorized
+users solely for the purpose of managing infrastructure on the AceCloud
+platform.
+
+PERMITTED:
+  - Use of the compiled binary for managing AceCloud infrastructure
+  - Installation on systems operated by authorized AceCloud users
+
+PROHIBITED:
+  - Reverse engineering, decompiling, or disassembling the Software
+  - Modifying, adapting, or creating derivative works of the Software
+  - Redistributing, sublicensing, selling, or transferring the Software
+    to third parties without prior written consent from AceCloud AI
+  - Using the Software to compete with AceCloud AI services
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL
+ACECLOUD AI BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN
+AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
+CONNECTION WITH THE SOFTWARE OR THE USE OR DEALINGS IN THE SOFTWARE.
+
+For licensing inquiries: support@acecloud.ai
