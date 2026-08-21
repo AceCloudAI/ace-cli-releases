@@ -16,16 +16,28 @@ Download the binary for your platform from [Releases](https://github.com/AceClou
 
 | Platform              | Binary               | Download                                                                                            |
 |-----------------------|----------------------|-----------------------------------------------------------------------------------------------------|
-| Linux (amd64)         | `ace-linux-amd64`    | [Download](https://github.com/AceCloudAI/ace-cli-releases/releases/download/v1.4.2-beta/ace-linux-amd64) |
-| Linux (arm64)         | `ace-linux-arm64`    | [Download](https://github.com/AceCloudAI/ace-cli-releases/releases/download/v1.4.2-beta/ace-linux-arm64) |
-| macOS (Apple Silicon) | `ace-darwin-arm64`   | [Download](https://github.com/AceCloudAI/ace-cli-releases/releases/download/v1.4.2-beta/ace-darwin-arm64)|
-| macOS (Intel)         | `ace-darwin-amd64`   | [Download](https://github.com/AceCloudAI/ace-cli-releases/releases/download/v1.4.2-beta/ace-darwin-amd64)|
+| Linux (amd64)         | `ace-linux-amd64`    | [Download](https://github.com/AceCloudAI/ace-cli-releases/releases/latest/download/ace-linux-amd64) |
+| Linux (arm64)         | `ace-linux-arm64`    | [Download](https://github.com/AceCloudAI/ace-cli-releases/releases/latest/download/ace-linux-arm64) |
+| macOS (Apple Silicon) | `ace-darwin-arm64`   | [Download](https://github.com/AceCloudAI/ace-cli-releases/releases/latest/download/ace-darwin-arm64)|
+| macOS (Intel)         | `ace-darwin-amd64`   | [Download](https://github.com/AceCloudAI/ace-cli-releases/releases/latest/download/ace-darwin-amd64)|
+
+These links always resolve to the current release. To pin a version, replace
+`latest/download` with `download/vX.Y.Z`.
 
 ```bash
 # Example: macOS Apple Silicon
-curl -L https://github.com/AceCloudAI/ace-cli-releases/releases/download/v1.4.2-beta/ace-darwin-arm64 -o /usr/local/bin/ace
+curl -L https://github.com/AceCloudAI/ace-cli-releases/releases/latest/download/ace-darwin-arm64 -o /usr/local/bin/ace
 chmod +x /usr/local/bin/ace
 ace --version
+```
+
+### Verifying a download
+
+Each release publishes `checksums.txt`:
+
+```bash
+curl -LO https://github.com/AceCloudAI/ace-cli-releases/releases/latest/download/checksums.txt
+shasum -a 256 -c checksums.txt --ignore-missing
 ```
 
 ### Self-Update
